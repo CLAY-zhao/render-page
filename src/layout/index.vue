@@ -27,7 +27,9 @@
           </n-layout-sider>
           <n-layout-content content-style="padding: 24px;">
             <transition name="fade">
-              <router-view />
+              <n-message-provider>
+                <router-view />
+              </n-message-provider>
             </transition>
           </n-layout-content>
         </n-layout>
