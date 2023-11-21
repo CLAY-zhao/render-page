@@ -1,10 +1,7 @@
-.PHONY: build
+.PHONY: install
 
-build:
-	npm run build
+install:
+	npm install
 
 serve:
 	npm run serve
-
-install:
-	npm run install
